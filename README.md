@@ -6,7 +6,6 @@
 - macOS >= 13.5
 
 ## Setup and Run:
-
 1. Download/clone the repo to your machine
 2. Go to the `mlxcli` folder from Terminal and ensure you have the required packages installed:
    `pip3 install --upgrade mlx_lm pynput`
@@ -17,6 +16,8 @@
 ## Notes:
 - Supports multi-line inputs i.e., you can type multiple lines or paste contents from elsewhere
 - The code uses Gemma2-2b-it 4bit (quantized) model by default, but you can change the MLX model in the code to switch (if needed and if your machine can support). See `main.py` for instructions.
+- More details about Gemma2-2b: https://developers.googleblog.com/en/smaller-safer-more-transparent-advancing-responsible-ai-with-gemma/
+- More details about MLX: https://github.com/ml-explore/mlx
 
 ## Planned improvements (if/when time permits):
 - [ ] Support for streaming responses
