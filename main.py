@@ -5,6 +5,7 @@ import threading
 import textwrap
 from pynput import keyboard
 
+# review README.md on https://github.com/notnotrishi/mlxcli/ for notes
 # ANSI color codes for command line
 RESET = "\033[0m"
 BOLD = "\033[1m"
