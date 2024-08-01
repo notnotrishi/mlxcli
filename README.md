@@ -16,8 +16,8 @@
 ## Notes:
 - Supports multi-line inputs i.e., you can type multiple lines or paste contents from elsewhere
 - The code uses Gemma2-2b-it 4bit (quantized) model by default, but you can change the MLX model in the code to switch (if needed and if your machine can support). See `main.py` for instructions.
-- More details about Gemma2-2b: https://developers.googleblog.com/en/smaller-safer-more-transparent-advancing-responsible-ai-with-gemma/
-- More details about MLX: https://github.com/ml-explore/mlx
+- From my experience and LMSYS ratings, Gemma2-2b a really solid model for edge AI, on consumer grade hardware. More details: https://developers.googleblog.com/en/smaller-safer-more-transparent-advancing-responsible-ai-with-gemma/
+- I have had amazing results with MLX for Gemma2-2b-IT 4 bit - getting ~40 tokens/sec in generation on a Mac Air M2 8GB, without losing much quality even with quantization. More details about MLX: https://github.com/ml-explore/mlx
 
 ## Planned improvements (if/when time permits):
 - [ ] Support for streaming responses
