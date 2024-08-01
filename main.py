@@ -5,7 +5,7 @@ import threading
 import textwrap
 from pynput import keyboard
 
-# ANSI color codes
+# ANSI color codes for command line
 RESET = "\033[0m"
 BOLD = "\033[1m"
 GREEN = "\033[38;5;108m"
